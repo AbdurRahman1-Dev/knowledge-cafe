@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "authorName": "Mr. Raju",
+    "blogTitle": "How to get your first job as a self-taught programmer?",
+    "cover": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80",
+    "readTime": 5,
+    "publishDate": "Mar 14",
+    "authorImage": "https://images.unsplash.com/profile-1585858091168-22e437a0ade4image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff"
+  },
+  {
+    "id": 2,
+    "authorName": "Mrs. Setara",
+    "blogTitle": "How to Be a good Programmer?",
+    "cover": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "readTime": 10,
+    "publishDate": "Mar 15",
+    "authorImage": "https://images.unsplash.com/profile-1567529426500-8f7a3cbff088image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff"
+  },
+  {
+    "id": 3,
+    "authorName": "Mina Mostofa",
+    "blogTitle": "Pros and Corns Of a self-taught Programmer?",
+    "cover": "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=906&q=80",
+    "readTime": 12,
+    "publishDate": "Mar 16",
+    "authorImage": "https://images.unsplash.com/profile-1673530457434-df041f083016image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff"
+  },
+  {
+    "id": 4,
+    "authorName": "Mina Mostofa",
+    "blogTitle": "Life Style Of a self-taught Programmer?",
+    "cover": "https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "readTime": 15,
+    "publishDate": "Mar 17",
+    "authorImage": "https://images.unsplash.com/profile-1650295951572-06009e823cd7image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff"
+  }
+]
