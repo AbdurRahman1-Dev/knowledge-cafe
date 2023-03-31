@@ -1,0 +1,14 @@
+.bookmark-sec{
+  background-color: #1e1e1e1a;;
+}
+
+@media only screen and (min-width: 450px){
+	.left-card{
+    width: 70%;
+  }
+  .bookmark-sec{
+    width: 30%;
+    padding: 20px;
+
+  }
+}

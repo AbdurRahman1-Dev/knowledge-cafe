@@ -17,7 +17,7 @@ const Blog = () => {
 
 
   return (
-    <div className='mx-auto'>
+    <div className='left-card'>
   
         {
           blogs.map((blog) => {
@@ -25,14 +25,14 @@ const Blog = () => {
             console.log(blog)
 
             return (
-              <Card className='w-50 border-0 my-3'>
+              <Card className=' border-0 my-3'>
               <Card.Img variant="top" src={cover} />
               <Card.Body>
                 <div className="user-sec d-flex justify-content-between align-items-center">
                   <div className="user d-flex">
-                    <img style={{width: '70px', height:'70px', borderRadius: '50%'}} src={authorImage} alt="" />
+                    <img style={{width: '60px', height:'60px', borderRadius: '50%'}} src={authorImage} alt="" />
                    <div className="user-name px-2">
-                   <h4 className='fw-bold'>{authorName}</h4>
+                   <h5 className='fw-bold'>{authorName}</h5>
                     <p style={{color:'gray'}}>{publishDate} (4days ago)</p>
                    </div>
                   </div>
