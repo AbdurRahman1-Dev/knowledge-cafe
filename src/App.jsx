@@ -1,9 +1,11 @@
 import React from 'react';
+import Header from './components/Header/Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
-    <div>
-      <h1>hello world</h1>
+    <div className='container'>
+      <Header/>
     </div>
   );
 };
