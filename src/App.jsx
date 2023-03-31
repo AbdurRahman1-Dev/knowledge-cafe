@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className='container'>
       <Header/>
-      <div className=' d-lg-flex gap-4'>
+      <div className=' d-lg-flex gap-3'>
       <Blog/>
       <Bookmark/>
       </div>

@@ -1,4 +1,4 @@
-.bookmark-sec{
+.bookmarkBg{
   background-color: #1e1e1e1a;;
 }
 
@@ -9,6 +9,8 @@
   .bookmark-sec{
     width: 30%;
     padding: 20px;
-
+    position: sticky;
+    top: 0px;
+    height: 100vh;
   }
 }
