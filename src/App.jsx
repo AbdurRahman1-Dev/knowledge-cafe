@@ -7,8 +7,8 @@ import './App.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-
 const App = () => {
+
   let [blog, setBlog] = useState([])
   let handleBookMark = (blog) => {
     setBlog(blog)
@@ -26,8 +26,11 @@ const App = () => {
       setReadTime(newReadtime)
   }
 
+  let clearStorage = () => {
+    localStorage.removeItem('Bookmark')
+  }
   return (
-    <div className='container'>
+    <div onLoad={clearStorage} className='container'>
       <Header/>
       <div className=' d-lg-flex gap-3'>
       <Blog handleBookMark={handleBookMark} handleReadTime={handleReadTime}/>
