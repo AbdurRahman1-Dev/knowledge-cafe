@@ -6,12 +6,14 @@ import Bookmark from './components/Bookmark/Bookmark';
 import './App.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Qna from './components/QNA/Qna';
 
 const App = () => {
 
   let [blog, setBlog] = useState([])
   let handleBookMark = (blog) => {
     setBlog(blog)
+
     let item = JSON.parse(localStorage.getItem('Bookmark'))
     
     if(item.includes(blog.blogTitle)){
@@ -36,6 +38,7 @@ const App = () => {
       <Blog handleBookMark={handleBookMark} handleReadTime={handleReadTime}/>
       <Bookmark blog={blog} readTime={readTime}/>
       </div>
+      <Qna/>
     </div>
   );
 };
