@@ -11,12 +11,21 @@ const App = () => {
     setBlog(blog)
   }
 
+  let [readTime, setReadTime] = useState(0);
+
+  let handleReadTime = (time) => {
+      let newReadtime = readTime + time.readTime;
+      setReadTime(newReadtime)
+  }
+  console.log(readTime);
+
+
   return (
     <div className='container'>
       <Header/>
       <div className=' d-lg-flex gap-3'>
-      <Blog handleBookMark={handleBookMark}/>
-      <Bookmark blog={blog}/>
+      <Blog handleBookMark={handleBookMark} handleReadTime={handleReadTime}/>
+      <Bookmark blog={blog} readTime={readTime}/>
       </div>
     </div>
   );

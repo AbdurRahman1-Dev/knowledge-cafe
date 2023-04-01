@@ -5,8 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
 
-const Blog = ({handleBookMark}) => {
-
+const Blog = ({handleBookMark,handleReadTime}) => {
  let [blogs, setBlogs] = useState([])
 
  useEffect(()=>{
@@ -42,7 +41,7 @@ const Blog = ({handleBookMark}) => {
                 <Card.Title className='fs-3 fw-bold py-3 lh-base'>{blogTitle}</Card.Title>
                 <p style={{color:'gray'}}><span >#beginners</span> 
                 <span className='px-4'>#programming</span></p>
-                <Button variant="" className='link-primary text-decoration-underline'>Mark as read</Button>
+                <Button onClick={()=>handleReadTime(blog)} variant="" className='link-primary text-decoration-underline'>Mark as read</Button>
               </Card.Body>
               <hr />
             </Card>
