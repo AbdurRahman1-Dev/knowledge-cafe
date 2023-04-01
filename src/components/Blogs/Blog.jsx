@@ -35,7 +35,7 @@ const Blog = ({handleBookMark,handleReadTime}) => {
                    </div>
                   </div>
                   <div className="time">
-                    <p style={{color:'gray'}}>0{readTime} min read <span style={{cursor:'pointer'}} onClick={()=>handleBookMark(blog)}><FontAwesomeIcon icon={faBookmark} /></span></p>
+                    <p style={{color:'gray'}}>{readTime} min read <span style={{cursor:'pointer'}} onClick={()=>handleBookMark(blog)}><FontAwesomeIcon icon={faBookmark} /></span></p>
                   </div>
                 </div>
                 <Card.Title className='fs-3 fw-bold py-3 lh-base'>{blogTitle}</Card.Title>
