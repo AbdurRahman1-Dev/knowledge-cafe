@@ -9,7 +9,7 @@ const Blog = ({handleBookMark,handleReadTime}) => {
  let [blogs, setBlogs] = useState([])
 
  useEffect(()=>{
-  fetch('../../../public/knowledgeCafe.json')
+  fetch('knowledgeCafe.json')
   .then(res => res.json())
   .then(data => setBlogs(data))
  },[])
@@ -48,7 +48,6 @@ const Blog = ({handleBookMark,handleReadTime}) => {
             )
           })
         }
-
     </div>
   );
 };

@@ -8,8 +8,8 @@ arr.push(blogList.blog)
 let mainBlog = arr.filter((e, index) => {
     return arr.indexOf(e) === index;
 })
-mainBlog.splice(0,1)
 
+mainBlog.splice(0,1)
 
   return (
     <div className='bookmark-sec'>
